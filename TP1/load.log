@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 10.2.0.1.0 - Production on Mon Jan 16 15:09:38 2012
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Control File:   load.sql
+Data File:      essai4_scramble.data
+  Bad File:     essai4_scramble.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 150
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table XXXX, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+NSS                                 FIRST     *   ,       CHARACTER            
+NOM                                  NEXT     *   ,       CHARACTER            
+DIST_10                              NEXT     *   ,       CHARACTER            
+DIST_100                             NEXT     *   ,       CHARACTER            
+DIST_1000                            NEXT     *   ,       CHARACTER            
+DIST_10000                           NEXT     *   ,       CHARACTER            
+RANDOM                               NEXT     *   ,       CHARACTER            
+
+
+Table XXXX:
+  100000 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 115584 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:        100000
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Jan 16 15:09:38 2012
+Run ended on Mon Jan 16 15:09:45 2012
+
+Elapsed time was:     00:00:07.63
+CPU time was:         00:00:00.66

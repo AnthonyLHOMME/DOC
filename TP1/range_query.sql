@@ -1,0 +1,11 @@
+select * from XXXX where nss>1932 and nss<2032;
+select * from XXXX where nss>7031 and nss<7131;
+select * from XXXX where nss>16873 and nss<16973;
+select * from XXXX where nss>19567 and nss<19667;
+select * from XXXX where nss>8900 and nss<9000;
+select * from XXXX where nss>6826 and nss<6926;
+select * from XXXX where nss>5505 and nss<5605;
+select * from XXXX where nss>7416 and nss<7516;
+select * from XXXX where nss>1917 and nss<2017;
+select * from XXXX where nss>1805 and nss<1905;
+exit;
